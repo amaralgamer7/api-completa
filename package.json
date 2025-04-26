@@ -1,0 +1,30 @@
+{
+  "name": "api-completa",
+  "version": "1.0.0",
+  "description": "Criando api com express, criptografia de senhas, banco de dados e autenticação",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaralgamer7/api-completa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaralgamer7/api-completa/issues"
+  },
+  "homepage": "https://github.com/amaralgamer7/api-completa#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.6.0",
+    "prisma": "^6.6.0"
+  }
+}
